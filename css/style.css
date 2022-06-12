@@ -1,0 +1,177 @@
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --top-line: #ffffff;
+  --bg-footer-bg: #2f303a;
+  --background: #e5e5e5;
+  --section-bg: #f5f4fa;
+}
+
+body {
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/*global change*/
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*logo*/
+
+.logo {
+  color: var(--primary-text-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-footer {
+  color: var(--top-line);
+}
+
+span {
+  color: var(--accent-color);
+}
+
+/*site nav*/
+
+.link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link-head {
+  color: var(--text-color);
+}
+
+.link-footer {
+  color: var(--top-line);
+}
+
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--accent-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.link-head:hover,
+.link-head:focus {
+  color: var(--accent-color);
+}
+
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+}
+
+/*hero*/
+
+.hero {
+  color: var(--top-line);
+  background-color: var(--bg-footer-bg);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 200px 0;
+}
+
+/*button*/
+
+.button {
+  background-color: var(--background-light-color);
+  color: var(--primary-text-color);
+}
+
+.button:focus,
+.button:hover {
+  background-color: var(--accent-color);
+  color: var(--top-line);
+}
+
+.button-hero {
+  color: var(--top-line);
+  background-color: var(--accent-color);
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+}
+
+/*futuares-title*/
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-title .features-text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+/*team*/
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*footer*/
+footer {
+  background-color: var(--bg-footer-bg);
+}
+/*portfolio*/
+
+/*project*/
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-text {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
