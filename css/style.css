@@ -53,11 +53,25 @@ span {
 }
 
 .link-head {
+  font-weight: 500;
   color: var(--text-color);
 }
 
-.link-footer {
+.link-footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   color: var(--top-line);
+  font-style: normal;
+}
+.link-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 .site-nav:hover,
@@ -96,11 +110,24 @@ span {
   padding: 200px 0;
 }
 
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
 /*button*/
 
 .button {
   background-color: var(--background-light-color);
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .button:focus,
@@ -120,11 +147,29 @@ span {
   text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
+  cursor: pointer;
 }
 
-/*futuares-title*/
+/*features-title*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.features {
+  background-color: var(--background);
+  background-size: 100%;
+}
 
 .features-title {
+  color: var(--text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -135,22 +180,43 @@ span {
   font-size: 14px;
   line-height: 1.7;
 }
+
+/*work*/
+
+.work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /*team*/
+
+.team {
+  background-color: var(--section-bg);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-main {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
 
 .team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-text {
+  color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /*footer*/
